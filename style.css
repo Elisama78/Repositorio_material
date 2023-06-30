@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4B93BF;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+li {
+    margin-left: 32px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    position: absolute;
+    left: 100px;
+    color: white;
+}
+
+.pt1 {
+    display: flex;
+    align-items: center;
+    background-color: #E4EEF1;
+}
+
+.pt1 img {
+    margin: 20px;
+}
+
+.pt1 p {
+    margin: 20px;
+    font-size: 16px;
+}
+
+.pt2 {
+    display: flex;
+    align-items: center;
+    background-color: #4B93BF;
+}
+
+.pt2 img {
+    margin: 20px;
+}
+
+.pt2 p {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.pt3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E4EEF1;
+    flex-wrap: wrap;
+
+}
+
+.pt3 img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #4B93BF;
+}
+
+.icons {
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
+
+.linkedin {
+    height: 90px;
+
+}
+
+.instagram {
+    height: 90px;
+}
+
+.github {
+    height: 90px;
+}
+
+.participacoes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
